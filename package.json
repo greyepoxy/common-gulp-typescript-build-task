@@ -1,0 +1,25 @@
+{
+  "name": "@greyepoxy/common-gulp-typescript-build-task",
+  "version": "1.0.0",
+  "description": "A common typescript build task.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "tasks"
+  ],
+  "author": "greyepoxy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greyepoxy/common-gulp-typescript-build-task.git"
+  },
+  "dependencies": {
+    "gulp-sourcemaps": "^2.1.1",
+    "gulp-typescript": "^3.0.2",
+    "merge2": "^1.0.2",
+    "path": "^0.12.7"
+  }
+}
