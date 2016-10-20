@@ -32,7 +32,7 @@ exports.build = function(gulp, config) {
 	gulp.task(tsBuildTaskName, function() {
 		var tsResult = gulp.src(tsSource, { base: tsSourceBase })
 			.pipe(sourcemaps.init())
-			.pipe(tsc(tsProject));
+			.pipe(tsProject());
 
 		return merge([
 			tsResult.js
